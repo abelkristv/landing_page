@@ -1,0 +1,46 @@
+.my-primary {
+    background-color: bisque;
+}
+
+.nav-link:hover::after {
+    content: '';
+    border-bottom: 3px solid bisque;
+    margin: auto;
+    display: block;
+    width: 50%;
+    margin-bottom: -3px;
+}
+
+.hero {
+    width: 100%;
+    height: 800px;
+    padding-top: 100px;
+    background-image: url("../images/eat.gif");
+    background-size: cover;
+}
+
+#gif > img {
+    width: 500px;
+    height: 500px;
+}
+
+.pt-300px {
+    padding-top: 300px;
+}
+
+.pt-100px {
+    padding-top: 100px;
+}
+
+#idk {
+    border-radius: 15px !important;
+    border: 1px solid rgb(209, 209, 209);
+}
+
+.about-us {
+    height: 100px;
+}
+
+.rounded {
+    
+}
