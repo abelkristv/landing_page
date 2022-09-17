@@ -15,8 +15,7 @@
     width: 100%;
     height: 800px;
     padding-top: 100px;
-    background-image: url("../images/eat.gif");
-    background-size: cover;
+    
 }
 
 #gif > img {
@@ -41,6 +40,18 @@
     height: 100px;
 }
 
+.pink-button {
+    background-color: pink!important;
+}
+
+.pink-button:hover {
+    background-color: rgb(250, 226, 230)!important;
+}
+
 .rounded {
     
+}
+
+body {
+    background-image: url("../images/background.jpg");
 }
